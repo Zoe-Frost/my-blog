@@ -2,6 +2,20 @@
     box-sizing: border-box;
 }
 
+:root{
+    --base-beige:#faf7f0;
+    --beige-2:#f1e7d4; 
+    --beige-3:#e2cda5;
+    --beige-4:#d3af76;
+    --honey-brown:#c99856;
+    --tan:#be7d41;
+    --light-brown:#a86237;
+    --medium-brown:#8c4b31;
+    --medium-dark-brown:#733d2d;
+    --brunette-brown:#5f3428;
+    --dark-brown:#361a12;
+}
+
 html{
     margin: 0 auto;
 }
