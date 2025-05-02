@@ -17,10 +17,13 @@
 }
 
 html{
-    margin: 0 auto;
+    font-size: 100%;
+    min-width: 300px;
 }
 
-.back-pic{
-    background-image: url(../images/Untitled@1-346x229.jpg);
-    background-size: auto ;
+body{
+    font-family:sans-serif ;
 }
+
+
+
