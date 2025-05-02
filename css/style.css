@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    margin: 0 auto;
+}
+
+.back-pic{
+    background-image: url(../images/Untitled@1-346x229.jpg);
+    background-size: auto ;
+}
