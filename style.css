@@ -25,9 +25,50 @@ body{
     font-family:sans-serif ;
 }
 
-#intro{
-    background-image:url(images/Untitled@1-346x229.jpg);
-    size: 100%;
+
+
+
+/* NAV */ 
+
+#main-nav{
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(5px);
+    height: 1.5cm;
+
+    padding-left: 1cm;
+    padding-right: 1cm;
+    padding-top: .5cm;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#main-nav a{
+    font-family: "courier-new", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+
+
+
+/* INDEX */ 
+
+#backer{
+    background-image: url(images/Firefly_unique\ earthy\ toned\ backgrounds\ with\ bubbles\ 474459.jpg);
+    height: 600px;
+    background-size: 110%;
+}
+
+/* FONTS */ 
+
+
+#h1-main{
+    font-family: "basset-seven", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40pt;
 }
 
 
