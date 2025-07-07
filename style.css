@@ -28,23 +28,54 @@ body{
 
 
 
-/* NAV */ 
+/* MAIN NAV */ 
 
 #main-nav{
     background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(5px);
     height: 1.5cm;
     padding-top: .5cm;
+    padding-left: .5cm;
+    padding-right: .5cm;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 0;
+    
 }
 #main-nav a{
     font-family: "courier-new", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+
+
 }
 
+header{
+    border: #361a12;
+    border-style: inset;
+    border-width: 5px;
+    background-color: var(--dark-brown);
+}
+
+header a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 14pt;
+    
+}
+
+header a:hover {
+    color: var(--honey-brown);
+}
+
+
+
+
+
+
+
+/* BOTTOM NAV */ 
 
 #bottom-nav a{
     font-family: "courier-new", sans-serif;
@@ -61,7 +92,7 @@ body{
 #backer{
     background-image: url(images/Firefly_unique\ earthy\ toned\ backgrounds\ with\ bubbles\ 474459.jpg);
     height: 600px;
-    background-size: 110%;
+    background-size: 150%;
 }
 
 
