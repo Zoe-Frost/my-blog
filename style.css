@@ -34,9 +34,6 @@ body{
     background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(5px);
     height: 1.5cm;
-
-    padding-left: 1cm;
-    padding-right: 1cm;
     padding-top: .5cm;
     display: flex;
     justify-content: space-between;
@@ -48,6 +45,12 @@ body{
     font-style: normal;
 }
 
+
+#bottom-nav a{
+    font-family: "courier-new", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 
 
@@ -65,26 +68,16 @@ body{
 
 
 h1{
-    font-family: "basset-one", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "anisette-std", sans-serif;
+font-weight: 700;
+font-style: normal;
     color: white;
-    font-size: 40pt;
+    font-size: 50pt;
 }
 
-h2
-
-
-h3 
-
-h4{
+h3{
     font-family: "courier-new", sans-serif;
-   font-weight: 400;
-   font-style: normal;
-
+    font-weight:400;
+    font-style: normal;
+    font-size: 14pt;
 }
-
-
-
-
-
