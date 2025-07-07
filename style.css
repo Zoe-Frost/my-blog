@@ -109,6 +109,8 @@ header a:hover {
     font-family: "courier-new", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-decoration: none;
+    color: #f1e7d4;
 }
 
 #w-1{
@@ -116,57 +118,176 @@ header a:hover {
     grid-column-end:1 ;
     grid-row-start: 1;
     grid-row-end:1 ;
+    background-color: var(--tan);
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    border: #000000;
+    border-style: outset;
+    border-width: 8px;
 }
+
+#w-1:hover{
+    border-style: inset;
+    background-color: rgb(182, 156, 140);
+    color: #000000;
+}
+
 
 #w-2{
     grid-column-start:2 ;
     grid-column-end:2 ;
     grid-row-start: 1;
     grid-row-end:1 ;
+    background-color: var(--medium-dark-brown);
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    border: #000000;
+    border-style: outset;
+    border-width: 8px;
 }
+
+#w-2:hover{
+    border-style: inset;
+    background-color: rgb(182, 156, 140);
+    color: #000000;
+}
+
 
 #w-3{
     grid-column-start:3 ;
     grid-column-end:3 ;
     grid-row-start: 1;
     grid-row-end:1 ;
+    background-color: var(--medium-brown);
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    border: #000000;
+    border-style: outset;
+    border-width: 8px;
 }
+
+#w-3:hover{
+    border-style: inset;
+    background-color: rgb(182, 156, 140);
+    color: #000000;
+}
+
 
 #w-4{
     grid-column-start:4 ;
     grid-column-end:4 ;
     grid-row-start: 1;
     grid-row-end:1 ;
+    background-color: var(--dark-brown);
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    border: #000000;
+    border-style: outset;
+    border-width: 8px;
 }
+
+#w-4:hover{
+    border-style: inset;
+    background-color: rgb(182, 156, 140);
+    color: #000000;
+}
+
 
 #w-5{
     grid-column-start:1 ;
     grid-column-end:1 ;
     grid-row-start: 2;
     grid-row-end:2;
+    background-color: var(--dark-brown);
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    border: #000000;
+    border-style: outset;
+    border-width: 8px;
 }
+
+#w-5:hover{
+    border-style: inset;
+    background-color: rgb(182, 156, 140);
+    color: #000000;
+}
+
 
 #w-6{
     grid-column-start:2 ;
     grid-column-end:2 ;
     grid-row-start: 2;
     grid-row-end:2;
+    background-color: var(--brunette-brown);
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    border: #000000;
+    border-style: outset;
+    border-width: 8px;
 }
+
+#w-6:hover{
+    border-style: inset;
+    background-color: rgb(182, 156, 140);
+    color: #000000;
+}
+
 
 #w-7{
     grid-column-start:3 ;
     grid-column-end:3 ;
     grid-row-start: 2;
     grid-row-end:2;
+    background-color: var(--beige-4);
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    border: #000000;
+    border-style: outset;
+    border-width: 8px;
 }
+
+#w-7:hover{
+    border-style: inset;
+    background-color: rgb(182, 156, 140);
+    color: #000000;
+}
+
 
 #w-8{
     grid-column-start:4 ;
     grid-column-end:4 ;
     grid-row-start: 2;
     grid-row-end:2;
+    background-color: var(--light-brown);
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    border: #000000;
+    border-style: outset;
+    border-width: 8px;
 }
 
+
+#w-8:hover{
+    border-style: inset;
+    background-color: rgb(182, 156, 140);
+    color: #000000;
+}
 
 
 
