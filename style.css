@@ -64,11 +64,24 @@ body{
 /* FONTS */ 
 
 
-#h1-main{
-    font-family: "basset-seven", sans-serif;
-    font-weight: 700;
+h1{
+    font-family: "basset-one", sans-serif;
+    font-weight: 400;
     font-style: normal;
+    color: white;
     font-size: 40pt;
+}
+
+h2
+
+
+h3 
+
+h4{
+    font-family: "courier-new", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+
 }
 
 
