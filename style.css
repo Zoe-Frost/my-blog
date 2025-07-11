@@ -133,11 +133,6 @@ footer{
 /* INDEX PAGE */ 
 
 
-#h1-head{
-    padding-left: 0.5cm;
-    padding-right: 0.5cm;
-}
-
 #backer{
     background-image: url(images/Firefly_unique\ earthy\ toned\ backgrounds\ with\ bubbles\ 474459.jpg);
     height: 600px;
@@ -147,8 +142,6 @@ footer{
 
 #introduction{
     color: #ffffff;
-    padding-left: 0.5cm;
-    padding-right: 0.5cm;
     
 }
 
