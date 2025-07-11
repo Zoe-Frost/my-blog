@@ -100,7 +100,7 @@ header a:hover {
 }
 
 footer{
-    margin-top: 20px;
+    margin-top: 155px;
     border: #361a12;
     border-style: inset;
     border-width: 5px;
@@ -132,15 +132,23 @@ footer{
 
 /* INDEX PAGE */ 
 
+
+#h1-head{
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+}
+
 #backer{
     background-image: url(images/Firefly_unique\ earthy\ toned\ backgrounds\ with\ bubbles\ 474459.jpg);
     height: 600px;
     background-size: 150%;
+    backdrop-filter: blur(5px);
 }
 
 #introduction{
-    backdrop-filter: blur(5px);
     color: #ffffff;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
     
 }
 
