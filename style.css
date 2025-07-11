@@ -77,10 +77,53 @@ header a:hover {
 
 /* BOTTOM NAV */ 
 
+
 #bottom-nav a{
     font-family: "courier-new", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-decoration: none;
+    color: white;
+
+}
+
+#bottom-nav{
+    height: 1.5cm;
+    padding-top: .5cm;
+    padding-left: .5cm;
+    padding-right: .5cm;
+    padding-bottom: .5cm;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+footer{
+    margin-top: 20px;
+    border: #361a12;
+    border-style: inset;
+    border-width: 5px;
+    background-color: var(--dark-brown);
+    
+}
+
+#bottom-nav a:hover{
+    color: var(--honey-brown);
+}
+
+
+
+/* cc */ 
+
+#bottom-note{
+    display: flex;
+    justify-content: center;
+    font-family: "courier-new", sans-serif;
+    font-weight:200;
+    font-style: normal;
+    font-size: 10pt;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -96,7 +139,9 @@ header a:hover {
 }
 
 #introduction{
-    background-color: var(--light-brown);
+    backdrop-filter: blur(5px);
+    color: #ffffff;
+    
 }
 
 #home-grid-menu{
@@ -288,31 +333,6 @@ header a:hover {
     background-color: rgb(182, 156, 140);
     color: #000000;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* cc */ 
-
-#bottom-note{
-    display: flex;
-    justify-content: center;
-    font-family: "courier-new", sans-serif;
-    font-weight:600;
-    font-style: normal;
-    font-size: 14pt;
-    color: white;
-}
-
 
 
 
