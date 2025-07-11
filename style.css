@@ -344,6 +344,71 @@ footer{
 }
 
 
+/* Standups grid for week-1 to week-8 */ 
+
+#standup-grid{
+    display: grid;
+    grid-template-columns: 8cm 8cm 8cm 8cm 8cm ;
+    grid-template-rows: 1cm 8cm  ;
+}
+
+
+#monday{
+    grid-column-start:1 ;
+    grid-row-start: 1;
+}
+
+
+#monday-note{
+    grid-column-start:1 ;
+    grid-row-start: 2;
+}
+
+
+#tuesday{
+    grid-column-start:2 ;
+    grid-row-start: 1;
+}
+
+#tuesday-note{
+    grid-column-start:2 ;
+    grid-row-start: 2;
+}
+
+#wednesday{
+    grid-column-start:3 ;
+    grid-row-start: 1;
+}
+
+#wednesday-note{
+    grid-column-start:3 ;
+    grid-row-start: 2;
+}
+
+#thursday{
+    grid-column-start:4 ;
+    grid-row-start: 1;
+}
+
+
+#thursday-note{
+    grid-column-start:4 ;
+    grid-row-start: 2;
+}
+
+#friday{
+    grid-column-start:5 ;
+    grid-row-start: 1;
+}
+
+
+#friday-note{
+    grid-column-start:5 ;
+    grid-row-start: 2;
+}
+
+
+
 
 
 
