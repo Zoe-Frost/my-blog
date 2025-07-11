@@ -31,7 +31,7 @@ body{
 /* MAIN NAV */ 
 
 #main-nav{
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(255, 255, 255);
     backdrop-filter: blur(5px);
     height: 1.5cm;
     padding-top: .5cm;
@@ -134,7 +134,7 @@ footer{
 
 
 #backer{
-    background-image: url(images/Firefly_unique\ earthy\ toned\ backgrounds\ with\ bubbles\ 474459.jpg);
+    background-image: url(images/Firefly_a\ unique\ monochromatic\ brown\ background\ \ 726000.jpg);
     height: 600px;
     background-size: 150%;
     backdrop-filter: blur(5px);
@@ -343,69 +343,99 @@ footer{
     background-color: var(--tan);
 }
 
-
-/* Standups grid for week-1 to week-8 */ 
-
-#standup-grid{
-    display: grid;
-    grid-template-columns: 8cm 8cm 8cm 8cm 8cm ;
-    grid-template-rows: 1cm 8cm  ;
+#page-2{
+    background-color: var(--brunette-brown);
 }
 
+#page-3{
+    background-color: var(--medium-brown);
+}
+
+#page-4{
+    background-color: var(--dark-brown);
+}
+
+#page-5{
+    background-color: var(--medium-dark-brown);
+}
+
+#page-6{
+    background-color: var(--brunette-brown);
+}
+
+#page-7{
+    background-color: var(--beige-4);
+}
+
+#page-8{
+    background-color: var(--light-brown);
+}
+
+/* Standups for week-1 to week-8 */ 
 
 #monday{
-    grid-column-start:1 ;
-    grid-row-start: 1;
+    border-width: 7px;
+    border-color:var(--brunette-brown);
+    border-style: outset;
+    background-color: #ffffff;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    padding-top: 0.1cm;
+    padding-bottom: 0.5cm;
 }
-
-
-#monday-note{
-    grid-column-start:1 ;
-    grid-row-start: 2;
-}
-
 
 #tuesday{
-    grid-column-start:2 ;
-    grid-row-start: 1;
-}
-
-#tuesday-note{
-    grid-column-start:2 ;
-    grid-row-start: 2;
+    border-width: 7px;
+    border-color:var(--brunette-brown);
+    border-style: outset;
+    background-color: #ffffff;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    padding-top: 0.1cm;
+    padding-bottom: 0.5cm;
+    margin-top: 10px;
 }
 
 #wednesday{
-    grid-column-start:3 ;
-    grid-row-start: 1;
-}
-
-#wednesday-note{
-    grid-column-start:3 ;
-    grid-row-start: 2;
+    border-width: 7px;
+    border-color:var(--brunette-brown);
+    border-style: outset;
+    background-color: #ffffff;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    padding-top: 0.1cm;
+    padding-bottom: 0.5cm;
+    margin-top: 10px;
 }
 
 #thursday{
-    grid-column-start:4 ;
-    grid-row-start: 1;
-}
-
-
-#thursday-note{
-    grid-column-start:4 ;
-    grid-row-start: 2;
+    border-width: 7px;
+    border-color:var(--brunette-brown);
+    border-style: outset;
+    background-color: #ffffff;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    padding-top: 0.1cm;
+    padding-bottom: 0.5cm;
+    margin-top: 10px;
 }
 
 #friday{
-    grid-column-start:5 ;
-    grid-row-start: 1;
+    border-width: 7px;
+    border-color:var(--brunette-brown);
+    border-style: outset;
+    background-color: #ffffff;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    padding-top: 0.1cm;
+    padding-bottom: 0.5cm;
+    margin-top: 10px;
 }
 
 
-#friday-note{
-    grid-column-start:5 ;
-    grid-row-start: 2;
-}
+
+
+
 
 
 
@@ -418,8 +448,8 @@ footer{
 
 h1{
     font-family: "anisette-std", sans-serif;
-font-weight: 700;
-font-style: normal;
+    font-weight: 700;
+    font-style: normal;
     color: white;
     font-size: 50pt;
     padding-left: 0.5cm;
